@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.data-picker {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 20rem;
+}
+.date-screen {
+  border: 1px solid black;
+  width: 200px;
+  height: 57px;
+  text-align: center;
+}
+.month {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  background-color: antiquewhite;
+}
+
+#month {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-style: normal;
+}
+#week_days {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  background-color: rgba(178, 110, 21, 0.562);
+  display: flex;
+  letter-spacing: 8px;
+  justify-content: space-evenly;
+}
+.days-number {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.days-number span {
+  border: 1px solid black;
+  padding: 3px;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
