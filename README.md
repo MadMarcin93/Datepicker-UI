@@ -1,3 +1,4 @@
 # Datepicker-UI
 https://roadmap.sh/projects/datepicker-ui
-![alt text](https://assets.roadmap.sh/guest/datepicker-ui-7l480.png)
+
+<img width="1701" alt="bez nazwy" src="https://github.com/MadMarcin93/Datepicker-UI/blob/main/date%20picker/Data_Picker.png" />
